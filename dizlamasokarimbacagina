@@ -657,4 +657,4 @@ function library:CreateTab(text, desc, mode)
 	end
 	return s
 end
-return library;
+return library
