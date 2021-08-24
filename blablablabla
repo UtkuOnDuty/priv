@@ -1,7 +1,9 @@
 local ADMINS = {
 	1590300418
 }
-local MODS = {
+local CLOWN = {
+
+    1590300418
 
 
 }
@@ -35,9 +37,9 @@ local function fxavll()
 						if v:FindFirstChildWhichIsA('Humanoid') then
 							v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌀]' .. game.Players[v.Name].DisplayName)
 						end
-					elseif table.find(MODS, plrID) then
+					elseif table.find(CLOWN, plrID) then
 						if v:FindFirstChildWhichIsA('Humanoid') then
-							v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🍆]' .. game.Players[v.Name].DisplayName)
+							v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡]Clown Nigi'
 						end
 					elseif table.find(STARS, plrID) then
 						if v:FindFirstChildWhichIsA('Humanoid') then
@@ -57,7 +59,7 @@ local function fxavll()
 						if v:FindFirstChildWhichIsA('Humanoid') then
 							v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌀]' .. game.Players[v.Name].DisplayName)
 						end
-					elseif table.find(MODS, plrID) then
+					elseif table.find(CLOWN, plrID) then
 						if v:FindFirstChildWhichIsA('Humanoid') then
 							v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🍆]' .. game.Players[v.Name].DisplayName)
 						end
